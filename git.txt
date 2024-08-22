@@ -1,0 +1,14 @@
+(en bash)
+cd /proyecto
+git branch -m main (cambia nombre a 'master')
+git status (ver cambios)
+git add . (confirmar cambios, prepararlos para hacer commit)
+git commit -m "" (Subir los cambios/version a GitHub, con mensaje.)
+
+git config --global user.name/email "usuario/email" (configurar autor responsable)
+
+git remote add origin https://github.com/usuario/repositorio.git (definir origin)
+git push -u origin main (subir a origin)
+
+(ionic/projecto)
+ionic g page pages/login (ionic g page carpeta/carpeta(de archivo)) (crear archivos)
